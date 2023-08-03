@@ -1319,9 +1319,6 @@
             "count": false,
             "appearance": "Label",
             "type": "inputSelectMany",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "Category",
@@ -10289,9 +10286,6 @@
             "metadata": {},
             "type": "inputSelectOne",
             "id": 2,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "anchor_id",
@@ -10319,9 +10313,6 @@
             "metadata": {},
             "type": "inputText",
             "id": 3,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "hours",
@@ -10349,9 +10340,6 @@
             "metadata": {},
             "type": "inputText",
             "id": 4,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "phone",
@@ -10379,9 +10367,6 @@
             "metadata": {},
             "length": false,
             "type": "inputText",
-            "isFollower": false,
-            "hasAfter": false,
-            "isFollowed": false
         },
         {
             "name": "website",
@@ -10409,9 +10394,6 @@
             "metadata": {},
             "type": "inputText",
             "id": 6,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "validity",
@@ -10439,9 +10421,6 @@
             "metadata": {},
             "type": "inputText",
             "id": 7,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "correlation_id",
@@ -10469,9 +10448,6 @@
             "metadata": {},
             "type": "inputText",
             "id": 8,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         }
     ],
     "metadata": {

@@ -87,9 +87,6 @@
             "other": false,
             "appearance": "Default",
             "type": "inputSelectOne",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "restriction",
@@ -137,9 +134,6 @@
             "other": false,
             "appearance": "Default",
             "type": "inputSelectOne",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "outdoor",
@@ -187,9 +181,6 @@
             "other": false,
             "appearance": "Default",
             "type": "inputSelectOne",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "ordinal",
@@ -230,9 +221,6 @@
             "selectStep": "1",
             "sliderTicks": false,
             "type": "inputNumeric",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "name",
@@ -1736,9 +1724,6 @@
             "count": false,
             "appearance": "Label",
             "type": "inputSelectMany",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "short_name",
@@ -3242,9 +3227,6 @@
             "count": false,
             "appearance": "Label",
             "type": "inputSelectMany",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "display_point",
@@ -3273,9 +3255,6 @@
             "kind": "Point",
             "appearance": "Default (GPS)",
             "type": "inputLocation",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "address_id",
@@ -3303,9 +3282,6 @@
             "metadata": {},
             "length": false,
             "type": "inputText",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "building_ids",
@@ -3319,9 +3295,6 @@
             "metadata": {},
             "type": "group",
             "kind": "label",
-            "isFollower": false,
-            "hasAfter": false,
-            "isFollowed": false,
             "children": [
                 {
                     "name": "BUILDING-ID",
@@ -3349,9 +3322,6 @@
                     "metadata": {},
                     "length": false,
                     "type": "inputText",
-                    "isFollower": false,
-                    "hasAfter": false,
-                    "isFollowed": false
                 }
             ]
         }

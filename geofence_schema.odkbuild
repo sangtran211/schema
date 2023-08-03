@@ -95,9 +95,6 @@
             "metadata": {},
             "type": "inputSelectOne",
             "id": 1,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "restriction",
@@ -145,9 +142,6 @@
             "metadata": {},
             "type": "inputSelectOne",
             "id": 2,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "name",
@@ -1467,9 +1461,6 @@
             "count": false,
             "appearance": "Label",
             "type": "inputSelectMany",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "alt_name",
@@ -2789,9 +2780,6 @@
             "count": false,
             "appearance": "Label",
             "type": "inputSelectMany",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "correlation_id",
@@ -2819,9 +2807,6 @@
             "metadata": {},
             "type": "inputText",
             "id": 5,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "display_point",
@@ -2849,9 +2834,6 @@
             "metadata": {},
             "type": "inputText",
             "id": 6,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "building_ids",
@@ -2864,9 +2846,6 @@
             "relevance": "",
             "metadata": {},
             "type": "group",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false,
             "children": [
                 {
                     "name": "building_id",
@@ -2894,9 +2873,6 @@
                     "metadata": {},
                     "type": "inputText",
                     "id": 7,
-                    "isFollower": false,
-                    "hasAfter": false,
-                    "isFollowed": false
                 }
             ],
             "kind": "label"
@@ -2912,9 +2888,6 @@
             "relevance": "",
             "metadata": {},
             "type": "group",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false,
             "children": [
                 {
                     "name": "level_id",
@@ -2942,9 +2915,6 @@
                     "metadata": {},
                     "type": "inputText",
                     "id": 9,
-                    "isFollower": false,
-                    "hasAfter": false,
-                    "isFollowed": false
                 }
             ],
             "kind": "label"
@@ -2960,9 +2930,6 @@
             "relevance": "",
             "metadata": {},
             "type": "group",
-            "isFollower": false,
-            "hasAfter": false,
-            "isFollowed": false,
             "children": [
                 {
                     "name": "parent",
@@ -2990,9 +2957,6 @@
                     "metadata": {},
                     "type": "inputText",
                     "id": 11,
-                    "isFollower": false,
-                    "hasAfter": true,
-                    "isFollowed": false
                 }
             ],
             "kind": "label"

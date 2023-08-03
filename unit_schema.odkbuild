@@ -535,9 +535,6 @@
             "metadata": {},
             "type": "inputSelectOne",
             "id": 1,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "restriction",
@@ -585,9 +582,6 @@
             "metadata": {},
             "type": "inputSelectOne",
             "id": 2,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "accessibility",
@@ -699,9 +693,6 @@
             "metadata": {},
             "type": "inputSelectMany",
             "id": 3,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "name",
@@ -2021,9 +2012,6 @@
             "count": false,
             "appearance": "Label",
             "type": "inputSelectMany",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "alt_name",
@@ -3343,9 +3331,6 @@
             "count": false,
             "appearance": "Label",
             "type": "inputSelectMany",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "level_id",
@@ -3373,9 +3358,6 @@
             "metadata": {},
             "type": "inputText",
             "id": 6,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "display_point",
@@ -3404,9 +3386,6 @@
             "metadata": {},
             "type": "inputLocation",
             "id": 7,
-            "isFollower": false,
-            "hasAfter": false,
-            "isFollowed": false
         }
     ],
     "metadata": {

@@ -1319,9 +1319,6 @@
             "count": false,
             "appearance": "Label",
             "type": "inputSelectMany",
-            "isFollower": false,
-            "hasAfter": false,
-            "isFollowed": false
         },
         {
             "name": "alt_name",
@@ -2641,9 +2638,6 @@
             "count": false,
             "appearance": "Label",
             "type": "inputSelectMany",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "anchor_id",
@@ -2671,9 +2665,6 @@
             "metadata": {},
             "type": "inputText",
             "id": 3,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "level_id",
@@ -2701,9 +2692,6 @@
             "metadata": {},
             "type": "inputText",
             "id": 4,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "display_point",
@@ -2732,9 +2720,6 @@
             "metadata": {},
             "type": "inputLocation",
             "id": 5,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         }
     ],
     "metadata": {

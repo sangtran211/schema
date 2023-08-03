@@ -150,10 +150,7 @@
             "appearance": "Default",
             "metadata": {},
             "type": "inputSelectOne",
-            "id": 1,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
+            "id": 1
         },
         {
             "name": "name",
@@ -1472,10 +1469,7 @@
             "other": false,
             "count": false,
             "appearance": "Label",
-            "type": "inputSelectMany",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
+            "type": "inputSelectMany"
         },
         {
             "name": "alt_name",
@@ -2794,10 +2788,7 @@
             "other": false,
             "count": false,
             "appearance": "Label",
-            "type": "inputSelectMany",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
+            "type": "inputSelectMany"
         },
         {
             "name": "anchor_id",
@@ -2824,10 +2815,7 @@
             "invalidText": {},
             "metadata": {},
             "type": "inputText",
-            "id": 4,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
+            "id": 4
         },
         {
             "name": "level_id",
@@ -2854,10 +2842,7 @@
             "invalidText": {},
             "metadata": {},
             "type": "inputText",
-            "id": 5,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
+            "id": 5
         },
         {
             "name": "display_point",
@@ -2885,10 +2870,7 @@
             "appearance": "Default (GPS)",
             "metadata": {},
             "type": "inputLocation",
-            "id": 6,
-            "isFollower": false,
-            "hasAfter": false,
-            "isFollowed": false
+            "id": 6
         }
     ],
     "metadata": {

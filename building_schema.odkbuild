@@ -1319,9 +1319,6 @@
             "count": false,
             "appearance": "Label",
             "type": "inputSelectMany",
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "alt_name",
@@ -2641,9 +2638,6 @@
             "count": false,
             "appearance": "Label",
             "type": "inputSelectMany",
-            "isFollower": false,
-            "hasAfter": false,
-            "isFollowed": false
         },
         {
             "name": "category",
@@ -2715,9 +2709,6 @@
             "metadata": {},
             "type": "inputSelectOne",
             "id": 3,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "restriction",
@@ -2763,9 +2754,6 @@
             "metadata": {},
             "type": "inputSelectOne",
             "id": 4,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "display_point",
@@ -2794,9 +2782,6 @@
             "metadata": {},
             "type": "inputLocation",
             "id": 5,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         },
         {
             "name": "address_id",
@@ -2824,9 +2809,6 @@
             "metadata": {},
             "type": "inputText",
             "id": 6,
-            "isFollower": false,
-            "hasAfter": true,
-            "isFollowed": false
         }
     ],
     "metadata": {
