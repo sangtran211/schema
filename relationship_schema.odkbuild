@@ -1,0 +1,429 @@
+{
+    "title": "relationship schema",
+    "controls": [
+        {
+            "name": "Category",
+            "label": {
+                "0": "Category"
+            },
+            "hint": {
+                "0": "The category that best describes the Relationship."
+            },
+            "defaultValue": "",
+            "readOnly": false,
+            "required": true,
+            "requiredText": {},
+            "relevance": "",
+            "constraint": "",
+            "invalidText": {},
+            "calculate": "",
+            "short": {},
+            "image": {},
+            "audio": {},
+            "video": {},
+            "bigimage": {},
+            "guidance": {},
+            "options": [
+                {
+                    "cascade": [],
+                    "val": "elevator",
+                    "text": {
+                        "0": "elevator"
+                    },
+                    "id": 0
+                },
+                {
+                    "cascade": [],
+                    "val": "escalator",
+                    "text": {
+                        "0": "escalator"
+                    },
+                    "id": 1
+                },
+                {
+                    "cascade": [],
+                    "val": "movingwalkway",
+                    "text": {
+                        "0": "movingwalkway"
+                    },
+                    "id": 2
+                },
+                {
+                    "cascade": [],
+                    "val": "ramp",
+                    "text": {
+                        "0": "ramp"
+                    },
+                    "id": 3
+                },
+                {
+                    "cascade": [],
+                    "val": "stairs",
+                    "text": {
+                        "0": "stairs"
+                    },
+                    "id": 4
+                },
+                {
+                    "cascade": [],
+                    "val": "traversal",
+                    "text": {
+                        "0": "traversal"
+                    },
+                    "id": 5
+                },
+                {
+                    "cascade": [],
+                    "val": "traversal.path",
+                    "text": {
+                        "0": "traversal.path"
+                    },
+                    "id": 6
+                }
+            ],
+            "cascading": false,
+            "other": false,
+            "appearance": "Default",
+            "metadata": {},
+            "type": "inputSelectOne",
+            "id": 1,
+            "isFollower": false,
+            "hasAfter": true,
+            "isFollowed": false
+        },
+        {
+            "name": "direction",
+            "label": {
+                "0": "Direction"
+            },
+            "hint": {
+                "0": "Directionality of declared Relationship from origin to destination"
+            },
+            "defaultValue": "",
+            "readOnly": false,
+            "required": false,
+            "requiredText": {},
+            "relevance": "",
+            "constraint": "",
+            "invalidText": {},
+            "calculate": "",
+            "short": {},
+            "image": {},
+            "audio": {},
+            "video": {},
+            "bigimage": {},
+            "guidance": {},
+            "options": [
+                {
+                    "val": "directed",
+                    "cascade": [],
+                    "text": {
+                        "0": "directed"
+                    },
+                    "id": 0
+                },
+                {
+                    "val": "undirected",
+                    "cascade": [],
+                    "text": {
+                        "0": "undirected"
+                    },
+                    "id": 1
+                }
+            ],
+            "cascading": false,
+            "other": false,
+            "appearance": "Default",
+            "metadata": {},
+            "type": "inputSelectOne",
+            "id": 2,
+            "isFollower": false,
+            "hasAfter": true,
+            "isFollowed": false
+        },
+        {
+            "name": "origin",
+            "id": 5,
+            "label": {
+                "0": "Origin"
+            },
+            "loop": false,
+            "fieldList": false,
+            "relevance": "",
+            "metadata": {},
+            "type": "group",
+            "isFollower": false,
+            "hasAfter": true,
+            "isFollowed": false,
+            "children": [
+                {
+                    "name": "id",
+                    "label": {
+                        "0": "ID"
+                    },
+                    "hint": {
+                        "0": "FEATURE-REFERENCE - ID of Reference to Feature serving as the origin element in the Relationship"
+                    },
+                    "defaultValue": "",
+                    "readOnly": false,
+                    "required": false,
+                    "requiredText": {},
+                    "relevance": "",
+                    "constraint": "",
+                    "calculate": "",
+                    "short": {},
+                    "image": {},
+                    "audio": {},
+                    "video": {},
+                    "bigimage": {},
+                    "guidance": {},
+                    "length": false,
+                    "invalidText": {},
+                    "metadata": {},
+                    "type": "inputText",
+                    "id": 3,
+                    "isFollower": false,
+                    "hasAfter": true,
+                    "isFollowed": false
+                },
+                {
+                    "name": "feature_type",
+                    "id": 4,
+                    "label": {
+                        "0": "Feature type"
+                    },
+                    "hint": {
+                        "0": "Type of Reference to Feature serving as the origin element in the Relationship"
+                    },
+                    "defaultValue": "",
+                    "readOnly": false,
+                    "required": false,
+                    "requiredText": {},
+                    "relevance": "",
+                    "constraint": "",
+                    "invalidText": {},
+                    "calculate": "",
+                    "short": {},
+                    "image": {},
+                    "audio": {},
+                    "video": {},
+                    "bigimage": {},
+                    "guidance": {},
+                    "metadata": {},
+                    "length": false,
+                    "type": "inputText",
+                    "isFollower": false,
+                    "hasAfter": false,
+                    "isFollowed": false
+                }
+            ]
+        },
+        {
+            "name": "intermediary",
+            "id": 8,
+            "label": {
+                "0": "Intermediary"
+            },
+            "loop": true,
+            "fieldList": false,
+            "relevance": "",
+            "metadata": {},
+            "type": "group",
+            "isFollower": false,
+            "hasAfter": true,
+            "isFollowed": false,
+            "children": [
+                {
+                    "name": "id",
+                    "label": {
+                        "0": "ID"
+                    },
+                    "hint": {
+                        "0": "FEATURE-REFERENCE - ID of Reference to Feature(s) serving as the intermediary element in the Relationship"
+                    },
+                    "defaultValue": "",
+                    "readOnly": false,
+                    "required": false,
+                    "requiredText": {},
+                    "relevance": "",
+                    "constraint": "",
+                    "calculate": "",
+                    "short": {},
+                    "image": {},
+                    "audio": {},
+                    "video": {},
+                    "bigimage": {},
+                    "guidance": {},
+                    "length": false,
+                    "invalidText": {},
+                    "metadata": {},
+                    "type": "inputText",
+                    "id": 6,
+                    "isFollower": false,
+                    "hasAfter": true,
+                    "isFollowed": false
+                },
+                {
+                    "name": "feature_type",
+                    "id": 7,
+                    "label": {
+                        "0": "Feature type"
+                    },
+                    "hint": {
+                        "0": " Type of Reference to Feature serving as the intermediary element in the Relationship"
+                    },
+                    "defaultValue": "",
+                    "readOnly": false,
+                    "required": false,
+                    "requiredText": {},
+                    "relevance": "",
+                    "constraint": "",
+                    "invalidText": {},
+                    "calculate": "",
+                    "short": {},
+                    "image": {},
+                    "audio": {},
+                    "video": {},
+                    "bigimage": {},
+                    "guidance": {},
+                    "metadata": {},
+                    "length": false,
+                    "type": "inputText",
+                    "isFollower": false,
+                    "hasAfter": false,
+                    "isFollowed": false
+                }
+            ]
+        },
+        {
+            "name": "destination",
+            "id": 11,
+            "label": {
+                "0": "Destination"
+            },
+            "loop": false,
+            "fieldList": false,
+            "relevance": "",
+            "metadata": {},
+            "type": "group",
+            "isFollower": false,
+            "hasAfter": true,
+            "isFollowed": false,
+            "children": [
+                {
+                    "name": "ed",
+                    "label": {
+                        "0": "ID"
+                    },
+                    "hint": {
+                        "0": "FEATURE-REFERENCE - ID of reference to Feature serving as the destination element of the Relationship"
+                    },
+                    "defaultValue": "",
+                    "readOnly": false,
+                    "required": false,
+                    "requiredText": {},
+                    "relevance": "",
+                    "constraint": "",
+                    "calculate": "",
+                    "short": {},
+                    "image": {},
+                    "audio": {},
+                    "video": {},
+                    "bigimage": {},
+                    "guidance": {},
+                    "length": false,
+                    "invalidText": {},
+                    "metadata": {},
+                    "type": "inputText",
+                    "id": 9,
+                    "isFollower": false,
+                    "hasAfter": true,
+                    "isFollowed": false
+                },
+                {
+                    "name": "feature_type",
+                    "id": 10,
+                    "label": {
+                        "0": "Feature type"
+                    },
+                    "hint": {
+                        "0": "Type of reference to Feature serving as the destination element of the Relationship"
+                    },
+                    "defaultValue": "",
+                    "readOnly": false,
+                    "required": false,
+                    "requiredText": {},
+                    "relevance": "",
+                    "constraint": "",
+                    "invalidText": {},
+                    "calculate": "",
+                    "short": {},
+                    "image": {},
+                    "audio": {},
+                    "video": {},
+                    "bigimage": {},
+                    "guidance": {},
+                    "metadata": {},
+                    "length": false,
+                    "type": "inputText",
+                    "isFollower": false,
+                    "hasAfter": false,
+                    "isFollowed": false
+                }
+            ]
+        },
+        {
+            "name": "hours",
+            "label": {
+                "0": "Hours of operation"
+            },
+            "hint": {
+                "0": "HOURS - Hours of operation constraining temporal applicability of destination from origin (via intermediary)"
+            },
+            "defaultValue": "",
+            "readOnly": false,
+            "required": false,
+            "requiredText": {},
+            "relevance": "",
+            "constraint": "",
+            "calculate": "",
+            "short": {},
+            "image": {},
+            "audio": {},
+            "video": {},
+            "bigimage": {},
+            "guidance": {},
+            "length": false,
+            "invalidText": {},
+            "metadata": {},
+            "type": "inputText",
+            "id": 12,
+            "isFollower": false,
+            "hasAfter": false,
+            "isFollowed": false
+        }
+    ],
+    "metadata": {
+        "version": 2,
+        "activeLanguages": {
+            "0": "English",
+            "_counter": 0,
+            "_display": "0"
+        },
+        "optionsPresets": [],
+        "htitle": null,
+        "instance_name": "",
+        "public_key": "",
+        "submission_url": "",
+        "auto_send": "default",
+        "auto_delete": "default",
+        "form_audit": "false",
+        "identify_user": "false",
+        "track_changes": "false",
+        "track_changes_reasons": "false",
+        "track_location": "false",
+        "location_priority": "balanced",
+        "location_min_interval": "20",
+        "location_max_age": "60"
+    }
+}
