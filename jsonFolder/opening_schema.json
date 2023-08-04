@@ -1,5 +1,5 @@
 {
-    "title": "fixture schema",
+    "title": "opening schema",
     "controls": [
         {
             "name": "category",
@@ -7,7 +7,7 @@
                 "0": "Category"
             },
             "hint": {
-                "0": "The category that best describes the function of the physical Fixture"
+                "0": "The category that best describes the function of the physical entrance"
             },
             "defaultValue": "",
             "readOnly": false,
@@ -26,123 +26,59 @@
             "options": [
                 {
                     "cascade": [],
-                    "val": "baggagecarousel",
+                    "val": "automobile",
                     "text": {
-                        "0": "baggagecarousel"
+                        "0": "automobile"
                     },
                     "id": 0
                 },
                 {
                     "cascade": [],
-                    "val": "boardinggate.desk",
+                    "val": "bicycle",
                     "text": {
-                        "0": "boardinggate.desk"
+                        "0": "bicycle"
                     },
                     "id": 1
                 },
                 {
                     "cascade": [],
-                    "val": "checkin.desk",
+                    "val": "emergencyexit",
                     "text": {
-                        "0": "checkin.desk"
+                        "0": "emergencyexit"
                     },
                     "id": 2
                 },
                 {
                     "cascade": [],
-                    "val": "checkin.kiosk",
+                    "val": "pedestrian",
                     "text": {
-                        "0": "checkin.kiosk"
+                        "0": "pedestrian"
                     },
                     "id": 3
                 },
                 {
                     "cascade": [],
-                    "val": "desk",
+                    "val": "pedestrian.principal",
                     "text": {
-                        "0": "desk"
+                        "0": "pedestrian.principal"
                     },
                     "id": 4
                 },
                 {
                     "cascade": [],
-                    "val": "equipment",
+                    "val": "pedestrian.transit",
                     "text": {
-                        "0": "equipment"
+                        "0": "pedestrian.transit"
                     },
                     "id": 5
                 },
                 {
                     "cascade": [],
-                    "val": "furniture",
+                    "val": "service",
                     "text": {
-                        "0": "furniture"
+                        "0": "service"
                     },
                     "id": 6
-                },
-                {
-                    "cascade": [],
-                    "val": "immigration.desk",
-                    "text": {
-                        "0": "immigration.desk"
-                    },
-                    "id": 7
-                },
-                {
-                    "cascade": [],
-                    "val": "inspection.desk",
-                    "text": {
-                        "0": "inspection.desk"
-                    },
-                    "id": 8
-                },
-                {
-                    "cascade": [],
-                    "val": "obstruction",
-                    "text": {
-                        "0": "obstruction"
-                    },
-                    "id": 9
-                },
-                {
-                    "cascade": [],
-                    "val": "securityequipment",
-                    "text": {
-                        "0": "securityequipment"
-                    },
-                    "id": 10
-                },
-                {
-                    "cascade": [],
-                    "val": "stage",
-                    "text": {
-                        "0": "stage"
-                    },
-                    "id": 11
-                },
-                {
-                    "cascade": [],
-                    "val": "vegetation",
-                    "text": {
-                        "0": "vegetation"
-                    },
-                    "id": 12
-                },
-                {
-                    "cascade": [],
-                    "val": "wall",
-                    "text": {
-                        "0": "wall"
-                    },
-                    "id": 13
-                },
-                {
-                    "cascade": [],
-                    "val": "water",
-                    "text": {
-                        "0": "water"
-                    },
-                    "id": 14
                 }
             ],
             "cascading": false,
@@ -153,13 +89,222 @@
             "id": 1
         },
         {
+            "name": "accessibility",
+            "label": {
+                "0": "Accessibility"
+            },
+            "hint": {
+                "0": "Indicates the type of accessibility provided by the Opening to a pedestrian that experiences disabilities"
+            },
+            "defaultValue": "",
+            "readOnly": false,
+            "required": false,
+            "requiredText": {},
+            "relevance": "",
+            "constraint": "",
+            "calculate": "",
+            "short": {},
+            "image": {},
+            "audio": {},
+            "video": {},
+            "bigimage": {},
+            "guidance": {},
+            "options": [
+                {
+                    "cascade": [],
+                    "val": "automobile",
+                    "text": {
+                        "0": "automobile"
+                    },
+                    "id": 0
+                },
+                {
+                    "cascade": [],
+                    "val": "bicycle",
+                    "text": {
+                        "0": "bicycle"
+                    },
+                    "id": 1
+                },
+                {
+                    "cascade": [],
+                    "val": "emergencyexit",
+                    "text": {
+                        "0": "emergencyexit"
+                    },
+                    "id": 2
+                },
+                {
+                    "cascade": [],
+                    "val": "pedestrian",
+                    "text": {
+                        "0": "pedestrian"
+                    },
+                    "id": 3
+                },
+                {
+                    "cascade": [],
+                    "val": "pedestrian.principal",
+                    "text": {
+                        "0": "pedestrian.principal"
+                    },
+                    "id": 4
+                },
+                {
+                    "cascade": [],
+                    "val": "pedestrian.transit",
+                    "text": {
+                        "0": "pedestrian.transit"
+                    },
+                    "id": 5
+                },
+                {
+                    "cascade": [],
+                    "val": "service",
+                    "text": {
+                        "0": "service"
+                    },
+                    "id": 6
+                }
+            ],
+            "other": false,
+            "count": false,
+            "invalidText": {},
+            "appearance": "Default",
+            "metadata": {},
+            "type": "inputSelectMany",
+            "id": 2
+        },
+        {
+            "name": "access_control",
+            "label": {
+                "0": "Access control"
+            },
+            "hint": {
+                "0": "Indicates the type of access control system(s) possessed by the Opening"
+            },
+            "defaultValue": "",
+            "readOnly": false,
+            "required": false,
+            "requiredText": {},
+            "relevance": "",
+            "constraint": "",
+            "calculate": "",
+            "short": {},
+            "image": {},
+            "audio": {},
+            "video": {},
+            "bigimage": {},
+            "guidance": {},
+            "options": [
+                {
+                    "cascade": [],
+                    "val": "badgereader",
+                    "text": {
+                        "0": "badgereader"
+                    },
+                    "id": 0
+                },
+                {
+                    "cascade": [],
+                    "val": "fingerprintreader",
+                    "text": {
+                        "0": "fingerprintreader"
+                    },
+                    "id": 1
+                },
+                {
+                    "cascade": [],
+                    "val": "guard",
+                    "text": {
+                        "0": "guard"
+                    },
+                    "id": 2
+                },
+                {
+                    "cascade": [],
+                    "val": "keyaccess",
+                    "text": {
+                        "0": "keyaccess"
+                    },
+                    "id": 3
+                },
+                {
+                    "cascade": [],
+                    "val": "outofservice",
+                    "text": {
+                        "0": "outofservice"
+                    },
+                    "id": 4
+                },
+                {
+                    "cascade": [],
+                    "val": "passwordaccess",
+                    "text": {
+                        "0": "passwordaccess"
+                    },
+                    "id": 5
+                },
+                {
+                    "cascade": [],
+                    "val": "retinascanner",
+                    "text": {
+                        "0": "retinascanner"
+                    },
+                    "id": 6
+                },
+                {
+                    "cascade": [],
+                    "val": "voicerecognition",
+                    "text": {
+                        "0": "voicerecognition"
+                    },
+                    "id": 7
+                }
+            ],
+            "other": false,
+            "count": false,
+            "invalidText": {},
+            "appearance": "Default",
+            "metadata": {},
+            "type": "inputSelectMany",
+            "id": 3
+        },
+        {
+            "name": "door",
+            "label": {
+                "0": "Door"
+            },
+            "hint": {
+                "0": "DOOR - Describes the physical nature of the door"
+            },
+            "defaultValue": "",
+            "readOnly": false,
+            "required": false,
+            "requiredText": {},
+            "relevance": "",
+            "constraint": "",
+            "calculate": "",
+            "short": {},
+            "image": {},
+            "audio": {},
+            "video": {},
+            "bigimage": {},
+            "guidance": {},
+            "length": false,
+            "invalidText": {},
+            "metadata": {},
+            "type": "inputText",
+            "id": 4
+        },
+        {
             "name": "name",
-            "id": 2,
+            "id": 5,
             "label": {
                 "0": "Name"
             },
             "hint": {
-                "0": "LABLES - The name of the Fixture as declared by the Venue Organization"
+                "0": "LABELS - The name of the Opening as declared by the Venue Organization"
             },
             "defaultValue": "",
             "readOnly": false,
@@ -1473,12 +1618,12 @@
         },
         {
             "name": "alt_name",
-            "id": 3,
+            "id": 6,
             "label": {
                 "0": "Alternative name"
             },
             "hint": {
-                "0": "LABELS - Alternative name for the Fixture that may be recognized by the Venue Organization"
+                "0": "LABELS - Alternative name for the Opening that may be recognized by the Venue Organization"
             },
             "defaultValue": "",
             "readOnly": false,
@@ -2791,66 +2936,12 @@
             "type": "inputSelectMany"
         },
         {
-            "name": "anchor_id",
-            "label": {
-                "0": "Anchor ID"
-            },
-            "hint": {
-                "0": "ID reference to Anchor record"
-            },
-            "defaultValue": "",
-            "readOnly": false,
-            "required": false,
-            "requiredText": {},
-            "relevance": "",
-            "constraint": "",
-            "calculate": "",
-            "short": {},
-            "image": {},
-            "audio": {},
-            "video": {},
-            "bigimage": {},
-            "guidance": {},
-            "length": false,
-            "invalidText": {},
-            "metadata": {},
-            "type": "inputText",
-            "id": 4
-        },
-        {
-            "name": "level_id",
-            "label": {
-                "0": "Level ID"
-            },
-            "hint": {
-                "0": "Unique identifier of the Level feature the Fixture possesses a spatial relationship with"
-            },
-            "defaultValue": "",
-            "readOnly": false,
-            "required": false,
-            "requiredText": {},
-            "relevance": "",
-            "constraint": "",
-            "calculate": "",
-            "short": {},
-            "image": {},
-            "audio": {},
-            "video": {},
-            "bigimage": {},
-            "guidance": {},
-            "length": false,
-            "invalidText": {},
-            "metadata": {},
-            "type": "inputText",
-            "id": 5
-        },
-        {
             "name": "display_point",
             "label": {
                 "0": "Display point"
             },
             "hint": {
-                "0": "The curated location to use as the point-based representation of the Building"
+                "0": "DISPLAY-POINT - The curated location to use as the point-based representation of the Opening"
             },
             "defaultValue": "",
             "readOnly": false,
@@ -2870,7 +2961,34 @@
             "appearance": "Default (GPS)",
             "metadata": {},
             "type": "inputLocation",
-            "id": 6
+            "id": 7
+        },
+        {
+            "name": "level_id",
+            "label": {
+                "0": "Level ID"
+            },
+            "hint": {
+                "0": "LEVEL-ID - Unique identifier of the Level the Opening possesses a spatial relationship with"
+            },
+            "defaultValue": "",
+            "readOnly": false,
+            "required": true,
+            "requiredText": {},
+            "relevance": "",
+            "constraint": "",
+            "calculate": "",
+            "short": {},
+            "image": {},
+            "audio": {},
+            "video": {},
+            "bigimage": {},
+            "guidance": {},
+            "length": false,
+            "invalidText": {},
+            "metadata": {},
+            "type": "inputText",
+            "id": 8
         }
     ],
     "metadata": {

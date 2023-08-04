@@ -1,5 +1,5 @@
 {
-    "title": "fixture schema",
+    "title": "amentity schema",
     "controls": [
         {
             "name": "category",
@@ -7,7 +7,7 @@
                 "0": "Category"
             },
             "hint": {
-                "0": "The category that best describes the function of the physical Fixture"
+                "0": "The category that best describes the function and/or service provided by the Amenity"
             },
             "defaultValue": "",
             "readOnly": false,
@@ -25,124 +25,1208 @@
             "guidance": {},
             "options": [
                 {
+                    "val": "amphitheater",
                     "cascade": [],
+                    "text": {
+                        "0": "amphitheater"
+                    }
+                },
+                {
+                    "val": "animalreliefarea",
+                    "cascade": [],
+                    "text": {
+                        "0": "animalreliefarea"
+                    }
+                },
+                {
+                    "val": "arrivalgate",
+                    "cascade": [],
+                    "text": {
+                        "0": "arrivalgate"
+                    }
+                },
+                {
+                    "val": "atm",
+                    "cascade": [],
+                    "text": {
+                        "0": "atm"
+                    }
+                },
+                {
+                    "val": "babychanging",
+                    "cascade": [],
+                    "text": {
+                        "0": "babychanging"
+                    }
+                },
+                {
                     "val": "baggagecarousel",
+                    "cascade": [],
                     "text": {
                         "0": "baggagecarousel"
-                    },
-                    "id": 0
+                    }
                 },
                 {
+                    "val": "baggagecarousel.intl",
                     "cascade": [],
-                    "val": "boardinggate.desk",
                     "text": {
-                        "0": "boardinggate.desk"
-                    },
-                    "id": 1
+                        "0": "baggagecarousel.intl"
+                    }
                 },
                 {
+                    "val": "baggagecarts",
                     "cascade": [],
+                    "text": {
+                        "0": "baggagecarts"
+                    }
+                },
+                {
+                    "val": "baggageclaim",
+                    "cascade": [],
+                    "text": {
+                        "0": "baggageclaim"
+                    }
+                },
+                {
+                    "val": "baggageclaim.oversize",
+                    "cascade": [],
+                    "text": {
+                        "0": "baggageclaim.oversize"
+                    }
+                },
+                {
+                    "val": "baggagerecheck",
+                    "cascade": [],
+                    "text": {
+                        "0": "baggagerecheck"
+                    }
+                },
+                {
+                    "val": "baggagestorage",
+                    "cascade": [],
+                    "text": {
+                        "0": "baggagestorage"
+                    }
+                },
+                {
+                    "val": "boardinggate",
+                    "cascade": [],
+                    "text": {
+                        "0": "boardinggate"
+                    }
+                },
+                {
+                    "val": "boardinggate.aircraft",
+                    "cascade": [],
+                    "text": {
+                        "0": "boardinggate.aircraft"
+                    }
+                },
+                {
+                    "val": "boardinggate.bus",
+                    "cascade": [],
+                    "text": {
+                        "0": "boardinggate.bus"
+                    }
+                },
+                {
+                    "val": "boardinggate.ferry",
+                    "cascade": [],
+                    "text": {
+                        "0": "boardinggate.ferry"
+                    }
+                },
+                {
+                    "val": "boardinggate.train",
+                    "cascade": [],
+                    "text": {
+                        "0": "boardinggate.train"
+                    }
+                },
+                {
+                    "val": "bus",
+                    "cascade": [],
+                    "text": {
+                        "0": "bus"
+                    }
+                },
+                {
+                    "val": "bus.muni",
+                    "cascade": [],
+                    "text": {
+                        "0": "bus.muni"
+                    }
+                },
+                {
+                    "val": "bus.national",
+                    "cascade": [],
+                    "text": {
+                        "0": "bus.national"
+                    }
+                },
+                {
+                    "val": "businesscenter",
+                    "cascade": [],
+                    "text": {
+                        "0": "businesscenter"
+                    }
+                },
+                {
+                    "val": "cabin",
+                    "cascade": [],
+                    "text": {
+                        "0": "cabin"
+                    }
+                },
+                {
+                    "val": "caregiver",
+                    "cascade": [],
+                    "text": {
+                        "0": "caregiver"
+                    }
+                },
+                {
+                    "val": "carrental",
+                    "cascade": [],
+                    "text": {
+                        "0": "carrental"
+                    }
+                },
+                {
+                    "val": "cashier",
+                    "cascade": [],
+                    "text": {
+                        "0": "cashier"
+                    }
+                },
+                {
+                    "val": "changemachine",
+                    "cascade": [],
+                    "text": {
+                        "0": "changemachine"
+                    }
+                },
+                {
+                    "val": "checkin",
+                    "cascade": [],
+                    "text": {
+                        "0": "checkin"
+                    }
+                },
+                {
                     "val": "checkin.desk",
+                    "cascade": [],
                     "text": {
                         "0": "checkin.desk"
-                    },
-                    "id": 2
+                    }
                 },
                 {
+                    "val": "checkin.desk.oversizebaggage",
                     "cascade": [],
-                    "val": "checkin.kiosk",
                     "text": {
-                        "0": "checkin.kiosk"
-                    },
-                    "id": 3
+                        "0": "checkin.desk.oversizebaggage"
+                    }
                 },
                 {
+                    "val": "checkin.desk.transfer",
                     "cascade": [],
-                    "val": "desk",
                     "text": {
-                        "0": "desk"
-                    },
-                    "id": 4
+                        "0": "checkin.desk.transfer"
+                    }
                 },
                 {
+                    "val": "checkin.selfservice",
                     "cascade": [],
-                    "val": "equipment",
                     "text": {
-                        "0": "equipment"
-                    },
-                    "id": 5
+                        "0": "checkin.selfservice"
+                    }
                 },
                 {
+                    "val": "childplayarea",
                     "cascade": [],
-                    "val": "furniture",
                     "text": {
-                        "0": "furniture"
-                    },
-                    "id": 6
+                        "0": "childplayarea"
+                    }
                 },
                 {
+                    "val": "coinlocker",
                     "cascade": [],
-                    "val": "immigration.desk",
                     "text": {
-                        "0": "immigration.desk"
-                    },
-                    "id": 7
+                        "0": "coinlocker"
+                    }
                 },
                 {
+                    "val": "copymachine",
                     "cascade": [],
-                    "val": "inspection.desk",
                     "text": {
-                        "0": "inspection.desk"
-                    },
-                    "id": 8
+                        "0": "copymachine"
+                    }
                 },
                 {
+                    "val": "defibrillator",
                     "cascade": [],
-                    "val": "obstruction",
                     "text": {
-                        "0": "obstruction"
-                    },
-                    "id": 9
+                        "0": "defibrillator"
+                    }
                 },
                 {
+                    "val": "drinkingfountain",
                     "cascade": [],
-                    "val": "securityequipment",
                     "text": {
-                        "0": "securityequipment"
-                    },
-                    "id": 10
+                        "0": "drinkingfountain"
+                    }
                 },
                 {
+                    "val": "eatingdrinking",
                     "cascade": [],
-                    "val": "stage",
                     "text": {
-                        "0": "stage"
-                    },
-                    "id": 11
+                        "0": "eatingdrinking"
+                    }
                 },
                 {
+                    "val": "elevator",
                     "cascade": [],
-                    "val": "vegetation",
                     "text": {
-                        "0": "vegetation"
-                    },
-                    "id": 12
+                        "0": "elevator"
+                    }
                 },
                 {
+                    "val": "emergencyshelter",
                     "cascade": [],
-                    "val": "wall",
                     "text": {
-                        "0": "wall"
-                    },
-                    "id": 13
+                        "0": "emergencyshelter"
+                    }
                 },
                 {
+                    "val": "entry",
                     "cascade": [],
-                    "val": "water",
                     "text": {
-                        "0": "water"
-                    },
-                    "id": 14
+                        "0": "entry"
+                    }
+                },
+                {
+                    "val": "escalator",
+                    "cascade": [],
+                    "text": {
+                        "0": "escalator"
+                    }
+                },
+                {
+                    "val": "exhibit",
+                    "cascade": [],
+                    "text": {
+                        "0": "exhibit"
+                    }
+                },
+                {
+                    "val": "faregate",
+                    "cascade": [],
+                    "text": {
+                        "0": "faregate"
+                    }
+                },
+                {
+                    "val": "faregate.oversized",
+                    "cascade": [],
+                    "text": {
+                        "0": "faregate.oversized"
+                    }
+                },
+                {
+                    "val": "fieldofplay",
+                    "cascade": [],
+                    "text": {
+                        "0": "fieldofplay"
+                    }
+                },
+                {
+                    "val": "fieldofplay.americanfootball",
+                    "cascade": [],
+                    "text": {
+                        "0": "fieldofplay.americanfootball"
+                    }
+                },
+                {
+                    "val": "fieldofplay.baseball",
+                    "cascade": [],
+                    "text": {
+                        "0": "fieldofplay.baseball"
+                    }
+                },
+                {
+                    "val": "fieldofplay.basketball",
+                    "cascade": [],
+                    "text": {
+                        "0": "fieldofplay.basketball"
+                    }
+                },
+                {
+                    "val": "fieldofplay.fieldhockey",
+                    "cascade": [],
+                    "text": {
+                        "0": "fieldofplay.fieldhockey"
+                    }
+                },
+                {
+                    "val": "fieldofplay.icehockey",
+                    "cascade": [],
+                    "text": {
+                        "0": "fieldofplay.icehockey"
+                    }
+                },
+                {
+                    "val": "fieldofplay.rugby",
+                    "cascade": [],
+                    "text": {
+                        "0": "fieldofplay.rugby"
+                    }
+                },
+                {
+                    "val": "fieldofplay.soccer",
+                    "cascade": [],
+                    "text": {
+                        "0": "fieldofplay.soccer"
+                    }
+                },
+                {
+                    "val": "fieldofplay.softball",
+                    "cascade": [],
+                    "text": {
+                        "0": "fieldofplay.softball"
+                    }
+                },
+                {
+                    "val": "fieldofplay.tennis",
+                    "cascade": [],
+                    "text": {
+                        "0": "fieldofplay.tennis"
+                    }
+                },
+                {
+                    "val": "fieldofplay.trackfield",
+                    "cascade": [],
+                    "text": {
+                        "0": "fieldofplay.trackfield"
+                    }
+                },
+                {
+                    "val": "fieldofplay.volleyball",
+                    "cascade": [],
+                    "text": {
+                        "0": "fieldofplay.volleyball"
+                    }
+                },
+                {
+                    "val": "firealarmpullstation",
+                    "cascade": [],
+                    "text": {
+                        "0": "firealarmpullstation"
+                    }
+                },
+                {
+                    "val": "fireextinguisher",
+                    "cascade": [],
+                    "text": {
+                        "0": "fireextinguisher"
+                    }
+                },
+                {
+                    "val": "firstaid",
+                    "cascade": [],
+                    "text": {
+                        "0": "firstaid"
+                    }
+                },
+                {
+                    "val": "fittingroom",
+                    "cascade": [],
+                    "text": {
+                        "0": "fittingroom"
+                    }
+                },
+                {
+                    "val": "foodservice",
+                    "cascade": [],
+                    "text": {
+                        "0": "foodservice"
+                    }
+                },
+                {
+                    "val": "gatearea",
+                    "cascade": [],
+                    "text": {
+                        "0": "gatearea"
+                    }
+                },
+                {
+                    "val": "groundtransportation",
+                    "cascade": [],
+                    "text": {
+                        "0": "groundtransportation"
+                    }
+                },
+                {
+                    "val": "guestservices",
+                    "cascade": [],
+                    "text": {
+                        "0": "guestservices"
+                    }
+                },
+                {
+                    "val": "handsanitizerstation",
+                    "cascade": [],
+                    "text": {
+                        "0": "handsanitizerstation"
+                    }
+                },
+                {
+                    "val": "healthscreening",
+                    "cascade": [],
+                    "text": {
+                        "0": "healthscreening"
+                    }
+                },
+                {
+                    "val": "hoteling",
+                    "cascade": [],
+                    "text": {
+                        "0": "hoteling"
+                    }
+                },
+                {
+                    "val": "immigration",
+                    "cascade": [],
+                    "text": {
+                        "0": "immigration"
+                    }
+                },
+                {
+                    "val": "information",
+                    "cascade": [],
+                    "text": {
+                        "0": "information"
+                    }
+                },
+                {
+                    "val": "information.bid",
+                    "cascade": [],
+                    "text": {
+                        "0": "information.bid"
+                    }
+                },
+                {
+                    "val": "information.carrental",
+                    "cascade": [],
+                    "text": {
+                        "0": "information.carrental"
+                    }
+                },
+                {
+                    "val": "information.hotel",
+                    "cascade": [],
+                    "text": {
+                        "0": "information.hotel"
+                    }
+                },
+                {
+                    "val": "information.mufid",
+                    "cascade": [],
+                    "text": {
+                        "0": "information.mufid"
+                    }
+                },
+                {
+                    "val": "information.mufid.arrivals",
+                    "cascade": [],
+                    "text": {
+                        "0": "information.mufid.arrivals"
+                    }
+                },
+                {
+                    "val": "information.mufid.departures",
+                    "cascade": [],
+                    "text": {
+                        "0": "information.mufid.departures"
+                    }
+                },
+                {
+                    "val": "information.transit",
+                    "cascade": [],
+                    "text": {
+                        "0": "information.transit"
+                    }
+                },
+                {
+                    "val": "landmark",
+                    "cascade": [],
+                    "text": {
+                        "0": "landmark"
+                    }
+                },
+                {
+                    "val": "library",
+                    "cascade": [],
+                    "text": {
+                        "0": "library"
+                    }
+                },
+                {
+                    "val": "limo",
+                    "cascade": [],
+                    "text": {
+                        "0": "limo"
+                    }
+                },
+                {
+                    "val": "lostandfound",
+                    "cascade": [],
+                    "text": {
+                        "0": "lostandfound"
+                    }
+                },
+                {
+                    "val": "mailbox",
+                    "cascade": [],
+                    "text": {
+                        "0": "mailbox"
+                    }
+                },
+                {
+                    "val": "meditation",
+                    "cascade": [],
+                    "text": {
+                        "0": "meditation"
+                    }
+                },
+                {
+                    "val": "meetingpoint",
+                    "cascade": [],
+                    "text": {
+                        "0": "meetingpoint"
+                    }
+                },
+                {
+                    "val": "mobilityrescue",
+                    "cascade": [],
+                    "text": {
+                        "0": "mobilityrescue"
+                    }
+                },
+                {
+                    "val": "mothersroom",
+                    "cascade": [],
+                    "text": {
+                        "0": "mothersroom"
+                    }
+                },
+                {
+                    "val": "movingwalkway",
+                    "cascade": [],
+                    "text": {
+                        "0": "movingwalkway"
+                    }
+                },
+                {
+                    "val": "paidarea",
+                    "cascade": [],
+                    "text": {
+                        "0": "paidarea"
+                    }
+                },
+                {
+                    "val": "parkandride",
+                    "cascade": [],
+                    "text": {
+                        "0": "parkandride"
+                    }
+                },
+                {
+                    "val": "parking",
+                    "cascade": [],
+                    "text": {
+                        "0": "parking"
+                    }
+                },
+                {
+                    "val": "parking.bicycle",
+                    "cascade": [],
+                    "text": {
+                        "0": "parking.bicycle"
+                    }
+                },
+                {
+                    "val": "parking.compact",
+                    "cascade": [],
+                    "text": {
+                        "0": "parking.compact"
+                    }
+                },
+                {
+                    "val": "parking.ev",
+                    "cascade": [],
+                    "text": {
+                        "0": "parking.ev"
+                    }
+                },
+                {
+                    "val": "parking.longterm",
+                    "cascade": [],
+                    "text": {
+                        "0": "parking.longterm"
+                    }
+                },
+                {
+                    "val": "parking.motorcycle",
+                    "cascade": [],
+                    "text": {
+                        "0": "parking.motorcycle"
+                    }
+                },
+                {
+                    "val": "parking.shortterm",
+                    "cascade": [],
+                    "text": {
+                        "0": "parking.shortterm"
+                    }
+                },
+                {
+                    "val": "parking.waitingarea",
+                    "cascade": [],
+                    "text": {
+                        "0": "parking.waitingarea"
+                    }
+                },
+                {
+                    "val": "payphone",
+                    "cascade": [],
+                    "text": {
+                        "0": "payphone"
+                    }
+                },
+                {
+                    "val": "pedestriancrossing",
+                    "cascade": [],
+                    "text": {
+                        "0": "pedestriancrossing"
+                    }
+                },
+                {
+                    "val": "peoplemover",
+                    "cascade": [],
+                    "text": {
+                        "0": "peoplemover"
+                    }
+                },
+                {
+                    "val": "phone",
+                    "cascade": [],
+                    "text": {
+                        "0": "phone"
+                    }
+                },
+                {
+                    "val": "phone.emergency",
+                    "cascade": [],
+                    "text": {
+                        "0": "phone.emergency"
+                    }
+                },
+                {
+                    "val": "photobooth",
+                    "cascade": [],
+                    "text": {
+                        "0": "photobooth"
+                    }
+                },
+                {
+                    "val": "platform",
+                    "cascade": [],
+                    "text": {
+                        "0": "platform"
+                    }
+                },
+                {
+                    "val": "police",
+                    "cascade": [],
+                    "text": {
+                        "0": "police"
+                    }
+                },
+                {
+                    "val": "powerchargingstation",
+                    "cascade": [],
+                    "text": {
+                        "0": "powerchargingstation"
+                    }
+                },
+                {
+                    "val": "prayerroom",
+                    "cascade": [],
+                    "text": {
+                        "0": "prayerroom"
+                    }
+                },
+                {
+                    "val": "prayerroom.buddhism",
+                    "cascade": [],
+                    "text": {
+                        "0": "prayerroom.buddhism"
+                    }
+                },
+                {
+                    "val": "prayerroom.christianity",
+                    "cascade": [],
+                    "text": {
+                        "0": "prayerroom.christianity"
+                    }
+                },
+                {
+                    "val": "prayerroom.hinduism",
+                    "cascade": [],
+                    "text": {
+                        "0": "prayerroom.hinduism"
+                    }
+                },
+                {
+                    "val": "prayerroom.islam",
+                    "cascade": [],
+                    "text": {
+                        "0": "prayerroom.islam"
+                    }
+                },
+                {
+                    "val": "prayerroom.islam.female",
+                    "cascade": [],
+                    "text": {
+                        "0": "prayerroom.islam.female"
+                    }
+                },
+                {
+                    "val": "prayerroom.islam.male",
+                    "cascade": [],
+                    "text": {
+                        "0": "prayerroom.islam.male"
+                    }
+                },
+                {
+                    "val": "prayerroom.judaism",
+                    "cascade": [],
+                    "text": {
+                        "0": "prayerroom.judaism"
+                    }
+                },
+                {
+                    "val": "prayerroom.shintoism",
+                    "cascade": [],
+                    "text": {
+                        "0": "prayerroom.shintoism"
+                    }
+                },
+                {
+                    "val": "prayerroom.sikh",
+                    "cascade": [],
+                    "text": {
+                        "0": "prayerroom.sikh"
+                    }
+                },
+                {
+                    "val": "prayerroom.taoic",
+                    "cascade": [],
+                    "text": {
+                        "0": "prayerroom.taoic"
+                    }
+                },
+                {
+                    "val": "privatelounge",
+                    "cascade": [],
+                    "text": {
+                        "0": "privatelounge"
+                    }
+                },
+                {
+                    "val": "productreturn",
+                    "cascade": [],
+                    "text": {
+                        "0": "productreturn"
+                    }
+                },
+                {
+                    "val": "rail.muni",
+                    "cascade": [],
+                    "text": {
+                        "0": "rail.muni"
+                    }
+                },
+                {
+                    "val": "rail.national",
+                    "cascade": [],
+                    "text": {
+                        "0": "rail.national"
+                    }
+                },
+                {
+                    "val": "ramp",
+                    "cascade": [],
+                    "text": {
+                        "0": "ramp"
+                    }
+                },
+                {
+                    "val": "reception.desk",
+                    "cascade": [],
+                    "text": {
+                        "0": "reception.desk"
+                    }
+                },
+                {
+                    "val": "recreation",
+                    "cascade": [],
+                    "text": {
+                        "0": "recreation"
+                    }
+                },
+                {
+                    "val": "restroom",
+                    "cascade": [],
+                    "text": {
+                        "0": "restroom"
+                    }
+                },
+                {
+                    "val": "restroom.family",
+                    "cascade": [],
+                    "text": {
+                        "0": "restroom.family"
+                    }
+                },
+                {
+                    "val": "restroom.female",
+                    "cascade": [],
+                    "text": {
+                        "0": "restroom.female"
+                    }
+                },
+                {
+                    "val": "restroom.female.wheelchair",
+                    "cascade": [],
+                    "text": {
+                        "0": "restroom.female.wheelchair"
+                    }
+                },
+                {
+                    "val": "restroom.male",
+                    "cascade": [],
+                    "text": {
+                        "0": "restroom.male"
+                    }
+                },
+                {
+                    "val": "restroom.male.wheelchair",
+                    "cascade": [],
+                    "text": {
+                        "0": "restroom.male.wheelchair"
+                    }
+                },
+                {
+                    "val": "restroom.transgender",
+                    "cascade": [],
+                    "text": {
+                        "0": "restroom.transgender"
+                    }
+                },
+                {
+                    "val": "restroom.transgender.wheelchair",
+                    "cascade": [],
+                    "text": {
+                        "0": "restroom.transgender.wheelchair"
+                    }
+                },
+                {
+                    "val": "restroom.unisex",
+                    "cascade": [],
+                    "text": {
+                        "0": "restroom.unisex"
+                    }
+                },
+                {
+                    "val": "restroom.unisex.wheelchair",
+                    "cascade": [],
+                    "text": {
+                        "0": "restroom.unisex.wheelchair"
+                    }
+                },
+                {
+                    "val": "restroom.wheelchair",
+                    "cascade": [],
+                    "text": {
+                        "0": "restroom.wheelchair"
+                    }
+                },
+                {
+                    "val": "rideshare",
+                    "cascade": [],
+                    "text": {
+                        "0": "rideshare"
+                    }
+                },
+                {
+                    "val": "seat",
+                    "cascade": [],
+                    "text": {
+                        "0": "seat"
+                    }
+                },
+                {
+                    "val": "seating",
+                    "cascade": [],
+                    "text": {
+                        "0": "seating"
+                    }
+                },
+                {
+                    "val": "security",
+                    "cascade": [],
+                    "text": {
+                        "0": "security"
+                    }
+                },
+                {
+                    "val": "security.checkpoint",
+                    "cascade": [],
+                    "text": {
+                        "0": "security.checkpoint"
+                    }
+                },
+                {
+                    "val": "security.inspection",
+                    "cascade": [],
+                    "text": {
+                        "0": "security.inspection"
+                    }
+                },
+                {
+                    "val": "service",
+                    "cascade": [],
+                    "text": {
+                        "0": "service"
+                    }
+                },
+                {
+                    "val": "shower",
+                    "cascade": [],
+                    "text": {
+                        "0": "shower"
+                    }
+                },
+                {
+                    "val": "shuttle",
+                    "cascade": [],
+                    "text": {
+                        "0": "shuttle"
+                    }
+                },
+                {
+                    "val": "sleepbox",
+                    "cascade": [],
+                    "text": {
+                        "0": "sleepbox"
+                    }
+                },
+                {
+                    "val": "smokingarea",
+                    "cascade": [],
+                    "text": {
+                        "0": "smokingarea"
+                    }
+                },
+                {
+                    "val": "stairs",
+                    "cascade": [],
+                    "text": {
+                        "0": "stairs"
+                    }
+                },
+                {
+                    "val": "storage",
+                    "cascade": [],
+                    "text": {
+                        "0": "storage"
+                    }
+                },
+                {
+                    "val": "strollerrental",
+                    "cascade": [],
+                    "text": {
+                        "0": "strollerrental"
+                    }
+                },
+                {
+                    "val": "studentadmissions",
+                    "cascade": [],
+                    "text": {
+                        "0": "studentadmissions"
+                    }
+                },
+                {
+                    "val": "studentservices",
+                    "cascade": [],
+                    "text": {
+                        "0": "studentservices"
+                    }
+                },
+                {
+                    "val": "swimmingpool",
+                    "cascade": [],
+                    "text": {
+                        "0": "swimmingpool"
+                    }
+                },
+                {
+                    "val": "swimmingpool.children",
+                    "cascade": [],
+                    "text": {
+                        "0": "swimmingpool.children"
+                    }
+                },
+                {
+                    "val": "swimmingpool.family",
+                    "cascade": [],
+                    "text": {
+                        "0": "swimmingpool.family"
+                    }
+                },
+                {
+                    "val": "taxi",
+                    "cascade": [],
+                    "text": {
+                        "0": "taxi"
+                    }
+                },
+                {
+                    "val": "ticketing",
+                    "cascade": [],
+                    "text": {
+                        "0": "ticketing"
+                    }
+                },
+                {
+                    "val": "ticketing.airline",
+                    "cascade": [],
+                    "text": {
+                        "0": "ticketing.airline"
+                    }
+                },
+                {
+                    "val": "ticketing.bus",
+                    "cascade": [],
+                    "text": {
+                        "0": "ticketing.bus"
+                    }
+                },
+                {
+                    "val": "ticketing.bus.muni",
+                    "cascade": [],
+                    "text": {
+                        "0": "ticketing.bus.muni"
+                    }
+                },
+                {
+                    "val": "ticketing.bus.national",
+                    "cascade": [],
+                    "text": {
+                        "0": "ticketing.bus.national"
+                    }
+                },
+                {
+                    "val": "ticketing.rail",
+                    "cascade": [],
+                    "text": {
+                        "0": "ticketing.rail"
+                    }
+                },
+                {
+                    "val": "ticketing.rail.muni",
+                    "cascade": [],
+                    "text": {
+                        "0": "ticketing.rail.muni"
+                    }
+                },
+                {
+                    "val": "ticketing.rail.national",
+                    "cascade": [],
+                    "text": {
+                        "0": "ticketing.rail.national"
+                    }
+                },
+                {
+                    "val": "ticketing.shuttle",
+                    "cascade": [],
+                    "text": {
+                        "0": "ticketing.shuttle"
+                    }
+                },
+                {
+                    "val": "traintrack",
+                    "cascade": [],
+                    "text": {
+                        "0": "traintrack"
+                    }
+                },
+                {
+                    "val": "transit",
+                    "cascade": [],
+                    "text": {
+                        "0": "transit"
+                    }
+                },
+                {
+                    "val": "unspecified",
+                    "cascade": [],
+                    "text": {
+                        "0": "unspecified"
+                    }
+                },
+                {
+                    "val": "valet",
+                    "cascade": [],
+                    "text": {
+                        "0": "valet"
+                    }
+                },
+                {
+                    "val": "vendingmachine",
+                    "cascade": [],
+                    "text": {
+                        "0": "vendingmachine"
+                    }
+                },
+                {
+                    "val": "vendingmachine.trainticket",
+                    "cascade": [],
+                    "text": {
+                        "0": "vendingmachine.trainticket"
+                    }
+                },
+                {
+                    "val": "wheelchairassist",
+                    "cascade": [],
+                    "text": {
+                        "0": "wheelchairassist"
+                    }
+                },
+                {
+                    "val": "wifi",
+                    "cascade": [],
+                    "text": {
+                        "0": "wifi"
+                    }
+                },
+                {
+                    "val": "yoga",
+                    "cascade": [],
+                    "text": {
+                        "0": "yoga"
+                    }
                 }
             ],
             "cascading": false,
@@ -153,13 +1237,116 @@
             "id": 1
         },
         {
+            "name": "accessibility",
+            "label": {
+                "0": "Accessibility"
+            },
+            "hint": {
+                "0": "Indicates the type of accessibility provided by the Amenity to a pedestrian that experiences disabilities"
+            },
+            "defaultValue": "",
+            "readOnly": false,
+            "required": false,
+            "requiredText": {},
+            "relevance": "",
+            "constraint": "",
+            "invalidText": {},
+            "calculate": "",
+            "short": {},
+            "image": {},
+            "audio": {},
+            "video": {},
+            "bigimage": {},
+            "guidance": {
+                "0": "trandinhsangkqh"
+            },
+            "options": [
+                {
+                    "val": "assisted.listening",
+                    "cascade": [],
+                    "text": {
+                        "0": "assisted.listening"
+                    }
+                },
+                {
+                    "val": "braille",
+                    "cascade": [],
+                    "text": {
+                        "0": "braille"
+                    }
+                },
+                {
+                    "val": "hearing",
+                    "cascade": [],
+                    "text": {
+                        "0": "hearing"
+                    }
+                },
+                {
+                    "val": "hearingloop",
+                    "cascade": [],
+                    "text": {
+                        "0": "hearingloop"
+                    }
+                },
+                {
+                    "val": "signlanginterpreter",
+                    "cascade": [],
+                    "text": {
+                        "0": "signlanginterpreter"
+                    }
+                },
+                {
+                    "val": "tactilepaving",
+                    "cascade": [],
+                    "text": {
+                        "0": "tactilepaving"
+                    }
+                },
+                {
+                    "val": "tdd",
+                    "cascade": [],
+                    "text": {
+                        "0": "tdd"
+                    }
+                },
+                {
+                    "val": "trs",
+                    "cascade": [],
+                    "text": {
+                        "0": "trs"
+                    }
+                },
+                {
+                    "val": "volume",
+                    "cascade": [],
+                    "text": {
+                        "0": "volume"
+                    }
+                },
+                {
+                    "val": "wheelchair",
+                    "cascade": [],
+                    "text": {
+                        "0": "wheelchair"
+                    }
+                }
+            ],
+            "other": false,
+            "count": false,
+            "appearance": "Default",
+            "metadata": {},
+            "type": "inputSelectMany",
+            "id": 2
+        },
+        {
             "name": "name",
-            "id": 2,
+            "id": 3,
             "label": {
                 "0": "Name"
             },
             "hint": {
-                "0": "LABLES - The name of the Fixture as declared by the Venue Organization"
+                "0": "The name of the Amenity as declared by the Venue Organization"
             },
             "defaultValue": "",
             "readOnly": false,
@@ -1473,12 +2660,12 @@
         },
         {
             "name": "alt_name",
-            "id": 3,
+            "id": 4,
             "label": {
                 "0": "Alternative name"
             },
             "hint": {
-                "0": "LABELS - Alternative name for the Fixture that may be recognized by the Venue Organization"
+                "0": "Alternative name for the Amenity that may be recognized by the Venue Organization"
             },
             "defaultValue": "",
             "readOnly": false,
@@ -2791,12 +3978,12 @@
             "type": "inputSelectMany"
         },
         {
-            "name": "anchor_id",
+            "name": "hours",
             "label": {
-                "0": "Anchor ID"
+                "0": "Hours"
             },
             "hint": {
-                "0": "ID reference to Anchor record"
+                "0": "Hours of operation; - HOURS Hours of Operation communicate a fixed or predictable (yearly) set of opening hours for a Feature; - MUST be valid per the OSM Opening Hours specification http://wiki.openstreetmap.org/wiki/Key:opening_hours/specification"
             },
             "defaultValue": "",
             "readOnly": false,
@@ -2804,6 +3991,7 @@
             "requiredText": {},
             "relevance": "",
             "constraint": "",
+            "invalidText": {},
             "calculate": "",
             "short": {},
             "image": {},
@@ -2812,45 +4000,113 @@
             "bigimage": {},
             "guidance": {},
             "length": false,
-            "invalidText": {},
-            "metadata": {},
-            "type": "inputText",
-            "id": 4
-        },
-        {
-            "name": "level_id",
-            "label": {
-                "0": "Level ID"
-            },
-            "hint": {
-                "0": "Unique identifier of the Level feature the Fixture possesses a spatial relationship with"
-            },
-            "defaultValue": "",
-            "readOnly": false,
-            "required": false,
-            "requiredText": {},
-            "relevance": "",
-            "constraint": "",
-            "calculate": "",
-            "short": {},
-            "image": {},
-            "audio": {},
-            "video": {},
-            "bigimage": {},
-            "guidance": {},
-            "length": false,
-            "invalidText": {},
             "metadata": {},
             "type": "inputText",
             "id": 5
         },
         {
-            "name": "display_point",
+            "name": "phone",
             "label": {
-                "0": "Display point"
+                "0": "Phone"
             },
             "hint": {
-                "0": "The curated location to use as the point-based representation of the Building"
+                "0": "Main phone number - Telephone numbers are provided for various Features to support an inquiry about the entity in the referenced location"
+            },
+            "defaultValue": "",
+            "readOnly": false,
+            "required": false,
+            "requiredText": {},
+            "relevance": "",
+            "constraint": "regex(.,'^\\+[1-9]\\d{1,14}$')",
+            "invalidText": {},
+            "calculate": "",
+            "short": {},
+            "image": {},
+            "audio": {},
+            "video": {},
+            "bigimage": {},
+            "guidance": {},
+            "length": false,
+            "metadata": {},
+            "type": "inputText",
+            "id": 6
+        },
+        {
+            "name": "website",
+            "label": {
+                "0": "Website"
+            },
+            "hint": {
+                "0": "Website URL - Website URIs are provided for various Features to directly support access to information about the referenced entity"
+            },
+            "defaultValue": "",
+            "readOnly": false,
+            "required": false,
+            "requiredText": {},
+            "relevance": "",
+            "constraint": "regex(.,'^(http|https)://')",
+            "invalidText": {},
+            "calculate": "",
+            "short": {},
+            "image": {},
+            "audio": {},
+            "video": {},
+            "bigimage": {},
+            "guidance": {},
+            "length": false,
+            "metadata": {},
+            "type": "inputText",
+            "id": 7
+        },
+        {
+            "name": "unit_ids",
+            "id": 9,
+            "label": {
+                "0": "Unique identifier of the Unit(s) the Amenity is associated with"
+            },
+            "loop": true,
+            "fieldList": false,
+            "relevance": "",
+            "metadata": {},
+            "type": "group",
+            "kind": "label",
+            "children": [
+                {
+                    "name": "unit_id",
+                    "id": 8,
+                    "label": {
+                        "0": "Unique identifier of the Unit"
+                    },
+                    "hint": {
+                        "0": ""
+                    },
+                    "defaultValue": "",
+                    "readOnly": false,
+                    "required": false,
+                    "requiredText": {},
+                    "relevance": "",
+                    "constraint": "",
+                    "invalidText": {},
+                    "calculate": "",
+                    "short": {},
+                    "image": {},
+                    "audio": {},
+                    "video": {},
+                    "bigimage": {},
+                    "guidance": {},
+                    "metadata": {},
+                    "length": false,
+                    "type": "inputText"
+                }
+            ]
+        },
+        {
+            "name": "address_id",
+            "label": {
+                "0": "Address ID"
+            },
+            "hint": {
+                "0": "ID reference to Address record"
             },
             "defaultValue": "",
             "readOnly": false,
@@ -2866,18 +4122,44 @@
             "video": {},
             "bigimage": {},
             "guidance": {},
-            "kind": "Point",
-            "appearance": "Default (GPS)",
+            "length": false,
             "metadata": {},
-            "type": "inputLocation",
-            "id": 6
+            "type": "inputText",
+            "id": 10
+        },
+        {
+            "name": "correlation_id",
+            "label": {
+                "0": "Correlation ID"
+            },
+            "hint": {
+                "0": "UUID - Correlation ID shared among similar Amenities that occupy different floors of the physical Venue"
+            },
+            "defaultValue": "",
+            "readOnly": false,
+            "required": false,
+            "requiredText": {},
+            "relevance": "",
+            "constraint": "^[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+            "invalidText": {},
+            "calculate": "",
+            "short": {},
+            "image": {},
+            "audio": {},
+            "video": {},
+            "bigimage": {},
+            "guidance": {},
+            "length": false,
+            "metadata": {},
+            "type": "inputText",
+            "id": 11
         }
     ],
     "metadata": {
         "version": 2,
         "activeLanguages": {
             "0": "English",
-            "_counter": 0,
+            "_counter": 4,
             "_display": "0"
         },
         "optionsPresets": [],

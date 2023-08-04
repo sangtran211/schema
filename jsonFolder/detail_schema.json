@@ -1,0 +1,55 @@
+{
+    "title": "detail schema ",
+    "controls": [
+        {
+            "name": "level_id",
+            "label": {
+                "0": "Level ID"
+            },
+            "hint": {
+                "0": "Unique identifier of the Level the Detail possesses a spatial relationship with"
+            },
+            "defaultValue": "",
+            "readOnly": false,
+            "required": true,
+            "requiredText": {},
+            "relevance": "",
+            "constraint": "",
+            "calculate": "",
+            "short": {},
+            "image": {},
+            "audio": {},
+            "video": {},
+            "bigimage": {},
+            "guidance": {},
+            "length": false,
+            "invalidText": {},
+            "metadata": {},
+            "type": "inputText",
+            "id": 1
+        }
+    ],
+    "metadata": {
+        "version": 2,
+        "activeLanguages": {
+            "0": "English",
+            "_counter": 0,
+            "_display": "0"
+        },
+        "optionsPresets": [],
+        "htitle": null,
+        "instance_name": "",
+        "public_key": "",
+        "submission_url": "",
+        "auto_send": "default",
+        "auto_delete": "default",
+        "form_audit": "false",
+        "identify_user": "false",
+        "track_changes": "false",
+        "track_changes_reasons": "false",
+        "track_location": "false",
+        "location_priority": "balanced",
+        "location_min_interval": "20",
+        "location_max_age": "60"
+    }
+}
