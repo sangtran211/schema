@@ -2666,7 +2666,7 @@
                     "cascade": [],
                     "val": "parking",
                     "text": {
-                        "0": "parking"
+                        "0": "Parking"
                     },
                     "id": 0
                 },
@@ -2674,7 +2674,7 @@
                     "cascade": [],
                     "val": "transit",
                     "text": {
-                        "0": "transit"
+                        "0": "Transit"
                     },
                     "id": 1
                 },
@@ -2682,7 +2682,7 @@
                     "cascade": [],
                     "val": "transit.bus",
                     "text": {
-                        "0": "transit.bus"
+                        "0": "Transit (Bus)"
                     },
                     "id": 2
                 },
@@ -2690,7 +2690,7 @@
                     "cascade": [],
                     "val": "transit.train",
                     "text": {
-                        "0": "transit.train"
+                        "0": "Transit (Train)"
                     },
                     "id": 3
                 },
@@ -2698,7 +2698,7 @@
                     "cascade": [],
                     "val": "unspecified",
                     "text": {
-                        "0": "unspecified"
+                        "0": "Unspecified"
                     },
                     "id": 4
                 }
@@ -2734,18 +2734,20 @@
             "guidance": {},
             "options": [
                 {
-                    "val": "employeesonly",
                     "cascade": [],
+                    "val": "employeesonly",
                     "text": {
-                        "0": "employeesonly"
-                    }
+                        "0": "Employees Only"
+                    },
+                    "id": 0
                 },
                 {
-                    "val": "restricted",
                     "cascade": [],
+                    "val": "restricted",
                     "text": {
-                        "0": "restricted"
-                    }
+                        "0": "Restricted"
+                    },
+                    "id": 1
                 }
             ],
             "cascading": false,

@@ -28,7 +28,7 @@
                     "cascade": [],
                     "val": "auditorium",
                     "text": {
-                        "0": "auditorium"
+                        "0": "Auditorium"
                     },
                     "id": 0
                 },
@@ -36,7 +36,7 @@
                     "cascade": [],
                     "val": "brick",
                     "text": {
-                        "0": "brick"
+                        "0": "Brick"
                     },
                     "id": 1
                 },
@@ -44,7 +44,7 @@
                     "cascade": [],
                     "val": "classroom",
                     "text": {
-                        "0": "classroom"
+                        "0": "Classroom"
                     },
                     "id": 2
                 },
@@ -52,7 +52,7 @@
                     "cascade": [],
                     "val": "column",
                     "text": {
-                        "0": "column"
+                        "0": "Column"
                     },
                     "id": 3
                 },
@@ -60,7 +60,7 @@
                     "cascade": [],
                     "val": "concrete",
                     "text": {
-                        "0": "concrete"
+                        "0": "Concrete"
                     },
                     "id": 4
                 },
@@ -68,7 +68,7 @@
                     "cascade": [],
                     "val": "conferenceroom",
                     "text": {
-                        "0": "conferenceroom"
+                        "0": "Conference Room"
                     },
                     "id": 5
                 },
@@ -76,7 +76,7 @@
                     "cascade": [],
                     "val": "drywall",
                     "text": {
-                        "0": "drywall"
+                        "0": "Drywall"
                     },
                     "id": 6
                 },
@@ -84,7 +84,7 @@
                     "cascade": [],
                     "val": "elevator",
                     "text": {
-                        "0": "elevator"
+                        "0": "Elevator"
                     },
                     "id": 7
                 },
@@ -92,7 +92,7 @@
                     "cascade": [],
                     "val": "escalator",
                     "text": {
-                        "0": "escalator"
+                        "0": "Escalator"
                     },
                     "id": 8
                 },
@@ -100,7 +100,7 @@
                     "cascade": [],
                     "val": "fieldofplay",
                     "text": {
-                        "0": "fieldofplay"
+                        "0": "Field of Play"
                     },
                     "id": 9
                 },
@@ -108,7 +108,7 @@
                     "cascade": [],
                     "val": "firstaid",
                     "text": {
-                        "0": "firstaid"
+                        "0": "First Aid"
                     },
                     "id": 10
                 },
@@ -116,7 +116,7 @@
                     "cascade": [],
                     "val": "fitnessroom",
                     "text": {
-                        "0": "fitnessroom"
+                        "0": "Fitness Room"
                     },
                     "id": 11
                 },
@@ -124,7 +124,7 @@
                     "cascade": [],
                     "val": "foodservice",
                     "text": {
-                        "0": "foodservice"
+                        "0": "Food Service"
                     },
                     "id": 12
                 },
@@ -132,7 +132,7 @@
                     "cascade": [],
                     "val": "footbridge",
                     "text": {
-                        "0": "footbridge"
+                        "0": "Footbridge"
                     },
                     "id": 13
                 },
@@ -140,7 +140,7 @@
                     "cascade": [],
                     "val": "glass",
                     "text": {
-                        "0": "glass"
+                        "0": "Glass"
                     },
                     "id": 14
                 },
@@ -148,7 +148,7 @@
                     "cascade": [],
                     "val": "huddleroom",
                     "text": {
-                        "0": "huddleroom"
+                        "0": "Huddle Room"
                     },
                     "id": 15
                 },
@@ -156,7 +156,7 @@
                     "cascade": [],
                     "val": "kitchen",
                     "text": {
-                        "0": "kitchen"
+                        "0": "Kitchen"
                     },
                     "id": 16
                 },
@@ -164,7 +164,7 @@
                     "cascade": [],
                     "val": "laboratory",
                     "text": {
-                        "0": "laboratory"
+                        "0": "Laboratory"
                     },
                     "id": 17
                 },
@@ -172,7 +172,7 @@
                     "cascade": [],
                     "val": "library",
                     "text": {
-                        "0": "library"
+                        "0": "Library"
                     },
                     "id": 18
                 },
@@ -180,7 +180,7 @@
                     "cascade": [],
                     "val": "lobby",
                     "text": {
-                        "0": "lobby"
+                        "0": "Lobby"
                     },
                     "id": 19
                 },
@@ -188,7 +188,7 @@
                     "cascade": [],
                     "val": "lounge",
                     "text": {
-                        "0": "lounge"
+                        "0": "Lounge"
                     },
                     "id": 20
                 },
@@ -196,7 +196,7 @@
                     "cascade": [],
                     "val": "mailroom",
                     "text": {
-                        "0": "mailroom"
+                        "0": "Mailroom"
                     },
                     "id": 21
                 },
@@ -204,7 +204,7 @@
                     "cascade": [],
                     "val": "mothersroom",
                     "text": {
-                        "0": "mothersroom"
+                        "0": "Mothers' Room"
                     },
                     "id": 22
                 },
@@ -212,7 +212,7 @@
                     "cascade": [],
                     "val": "movietheater",
                     "text": {
-                        "0": "movietheater"
+                        "0": "Movie Theater"
                     },
                     "id": 23
                 },
@@ -220,7 +220,7 @@
                     "cascade": [],
                     "val": "movingwalkway",
                     "text": {
-                        "0": "movingwalkway"
+                        "0": "Moving Walkway"
                     },
                     "id": 24
                 },
@@ -228,7 +228,7 @@
                     "cascade": [],
                     "val": "nonpublic",
                     "text": {
-                        "0": "nonpublic"
+                        "0": "Non-Public"
                     },
                     "id": 25
                 },
@@ -236,7 +236,7 @@
                     "cascade": [],
                     "val": "office",
                     "text": {
-                        "0": "office"
+                        "0": "Office"
                     },
                     "id": 26
                 },
@@ -244,7 +244,7 @@
                     "cascade": [],
                     "val": "opentobelow",
                     "text": {
-                        "0": "opentobelow"
+                        "0": "Open to Below"
                     },
                     "id": 27
                 },
@@ -252,7 +252,7 @@
                     "cascade": [],
                     "val": "parking",
                     "text": {
-                        "0": "parking"
+                        "0": "Parking"
                     },
                     "id": 28
                 },
@@ -260,7 +260,7 @@
                     "cascade": [],
                     "val": "phoneroom",
                     "text": {
-                        "0": "phoneroom"
+                        "0": "Phone Room"
                     },
                     "id": 29
                 },
@@ -268,7 +268,7 @@
                     "cascade": [],
                     "val": "platform",
                     "text": {
-                        "0": "platform"
+                        "0": "Platform"
                     },
                     "id": 30
                 },
@@ -276,7 +276,7 @@
                     "cascade": [],
                     "val": "privatelounge",
                     "text": {
-                        "0": "privatelounge"
+                        "0": "Private Lounge"
                     },
                     "id": 31
                 },
@@ -284,7 +284,7 @@
                     "cascade": [],
                     "val": "ramp",
                     "text": {
-                        "0": "ramp"
+                        "0": "Ramp"
                     },
                     "id": 32
                 },
@@ -292,7 +292,7 @@
                     "cascade": [],
                     "val": "recreation",
                     "text": {
-                        "0": "recreation"
+                        "0": "Recreation"
                     },
                     "id": 33
                 },
@@ -300,7 +300,7 @@
                     "cascade": [],
                     "val": "restroom",
                     "text": {
-                        "0": "restroom"
+                        "0": "Restroom"
                     },
                     "id": 34
                 },
@@ -308,7 +308,7 @@
                     "cascade": [],
                     "val": "restroom.family",
                     "text": {
-                        "0": "restroom.family"
+                        "0": "Restroom (Family)"
                     },
                     "id": 35
                 },
@@ -316,7 +316,7 @@
                     "cascade": [],
                     "val": "restroom.female",
                     "text": {
-                        "0": "restroom.female"
+                        "0": "Restroom (Female)"
                     },
                     "id": 36
                 },
@@ -324,7 +324,7 @@
                     "cascade": [],
                     "val": "restroom.female.wheelchair",
                     "text": {
-                        "0": "restroom.female.wheelchair"
+                        "0": "Restroom (Female, Wheelchair Accessible)"
                     },
                     "id": 37
                 },
@@ -332,7 +332,7 @@
                     "cascade": [],
                     "val": "restroom.male",
                     "text": {
-                        "0": "restroom.male"
+                        "0": "Restroom (Male)"
                     },
                     "id": 38
                 },
@@ -340,7 +340,7 @@
                     "cascade": [],
                     "val": "restroom.male.wheelchair",
                     "text": {
-                        "0": "restroom.male.wheelchair"
+                        "0": "Restroom (Male, Wheelchair Accessible)"
                     },
                     "id": 39
                 },
@@ -348,7 +348,7 @@
                     "cascade": [],
                     "val": "restroom.transgender",
                     "text": {
-                        "0": "restroom.transgender"
+                        "0": "Restroom (Transgender)"
                     },
                     "id": 40
                 },
@@ -356,7 +356,7 @@
                     "cascade": [],
                     "val": "restroom.transgender.wheelchair",
                     "text": {
-                        "0": "restroom.transgender.wheelchair"
+                        "0": "Restroom (Transgender, Wheelchair Accessible)"
                     },
                     "id": 41
                 },
@@ -364,7 +364,7 @@
                     "cascade": [],
                     "val": "restroom.unisex",
                     "text": {
-                        "0": "restroom.unisex"
+                        "0": "Restroom (Unisex)"
                     },
                     "id": 42
                 },
@@ -372,7 +372,7 @@
                     "cascade": [],
                     "val": "restroom.unisex.wheelchair",
                     "text": {
-                        "0": "restroom.unisex.wheelchair"
+                        "0": "Restroom (Unisex, Wheelchair Accessible)"
                     },
                     "id": 43
                 },
@@ -380,7 +380,7 @@
                     "cascade": [],
                     "val": "restroom.wheelchair",
                     "text": {
-                        "0": "restroom.wheelchair"
+                        "0": "Restroom (Wheelchair Accessible)"
                     },
                     "id": 44
                 },
@@ -388,7 +388,7 @@
                     "cascade": [],
                     "val": "road",
                     "text": {
-                        "0": "road"
+                        "0": "Road"
                     },
                     "id": 45
                 },
@@ -396,7 +396,7 @@
                     "cascade": [],
                     "val": "room",
                     "text": {
-                        "0": "room"
+                        "0": "Room"
                     },
                     "id": 46
                 },
@@ -404,7 +404,7 @@
                     "cascade": [],
                     "val": "serverroom",
                     "text": {
-                        "0": "serverroom"
+                        "0": "Server Room"
                     },
                     "id": 47
                 },
@@ -412,7 +412,7 @@
                     "cascade": [],
                     "val": "shower",
                     "text": {
-                        "0": "shower"
+                        "0": "Shower"
                     },
                     "id": 48
                 },
@@ -420,7 +420,7 @@
                     "cascade": [],
                     "val": "smokingarea",
                     "text": {
-                        "0": "smokingarea"
+                        "0": "Smoking Area"
                     },
                     "id": 49
                 },
@@ -428,7 +428,7 @@
                     "cascade": [],
                     "val": "stairs",
                     "text": {
-                        "0": "stairs"
+                        "0": "Stairs"
                     },
                     "id": 50
                 },
@@ -436,7 +436,7 @@
                     "cascade": [],
                     "val": "steps",
                     "text": {
-                        "0": "steps"
+                        "0": "Steps"
                     },
                     "id": 51
                 },
@@ -444,7 +444,7 @@
                     "cascade": [],
                     "val": "storage",
                     "text": {
-                        "0": "storage"
+                        "0": "Storage"
                     },
                     "id": 52
                 },
@@ -452,7 +452,7 @@
                     "cascade": [],
                     "val": "structure",
                     "text": {
-                        "0": "structure"
+                        "0": "Structure"
                     },
                     "id": 53
                 },
@@ -460,7 +460,7 @@
                     "cascade": [],
                     "val": "terrace",
                     "text": {
-                        "0": "terrace"
+                        "0": "Terrace"
                     },
                     "id": 54
                 },
@@ -468,7 +468,7 @@
                     "cascade": [],
                     "val": "theater",
                     "text": {
-                        "0": "theater"
+                        "0": "Theater"
                     },
                     "id": 55
                 },
@@ -476,7 +476,7 @@
                     "cascade": [],
                     "val": "unenclosedarea",
                     "text": {
-                        "0": "unenclosedarea"
+                        "0": "Unenclosed Area"
                     },
                     "id": 56
                 },
@@ -484,7 +484,7 @@
                     "cascade": [],
                     "val": "unspecified",
                     "text": {
-                        "0": "unspecified"
+                        "0": "Unspecified"
                     },
                     "id": 57
                 },
@@ -492,7 +492,7 @@
                     "cascade": [],
                     "val": "vegetation",
                     "text": {
-                        "0": "vegetation"
+                        "0": "Vegetation"
                     },
                     "id": 58
                 },
@@ -500,7 +500,7 @@
                     "cascade": [],
                     "val": "waitingroom",
                     "text": {
-                        "0": "waitingroom"
+                        "0": "Waiting Room"
                     },
                     "id": 59
                 },
@@ -508,7 +508,7 @@
                     "cascade": [],
                     "val": "walkway",
                     "text": {
-                        "0": "walkway"
+                        "0": "Walkway"
                     },
                     "id": 60
                 },
@@ -516,7 +516,7 @@
                     "cascade": [],
                     "val": "walkway.island",
                     "text": {
-                        "0": "walkway.island"
+                        "0": "Walkway (Island)"
                     },
                     "id": 61
                 },
@@ -524,7 +524,7 @@
                     "cascade": [],
                     "val": "wood",
                     "text": {
-                        "0": "wood"
+                        "0": "Wood"
                     },
                     "id": 62
                 }
@@ -560,18 +560,18 @@
             "guidance": {},
             "options": [
                 {
-                    "val": "employeesonly",
                     "cascade": [],
+                    "val": "employeesonly",
                     "text": {
-                        "0": "employeesonly"
+                        "0": "Employees Only"
                     },
                     "id": 0
                 },
                 {
-                    "val": "restricted",
                     "cascade": [],
+                    "val": "restricted",
                     "text": {
-                        "0": "restricted"
+                        "0": "Restricted"
                     },
                     "id": 1
                 }
@@ -589,7 +589,7 @@
                 "0": "Accessibility"
             },
             "hint": {
-                "0": "Indicates the type of accessibility provided by the Unit to a pedestrian that experiences disabilities"
+                "0": "ACCESSIBILITY-CATEGORY - Indicates the type of accessibility provided by the Unit to a pedestrian that experiences disabilities"
             },
             "defaultValue": "",
             "readOnly": false,
@@ -609,7 +609,7 @@
                     "cascade": [],
                     "val": "assisted.listening",
                     "text": {
-                        "0": "assisted.listening"
+                        "0": "Assisted Listening"
                     },
                     "id": 0
                 },
@@ -617,7 +617,7 @@
                     "cascade": [],
                     "val": "braille",
                     "text": {
-                        "0": "braille"
+                        "0": "Braille"
                     },
                     "id": 1
                 },
@@ -625,7 +625,7 @@
                     "cascade": [],
                     "val": "hearing",
                     "text": {
-                        "0": "hearing"
+                        "0": "Hearing"
                     },
                     "id": 2
                 },
@@ -633,7 +633,7 @@
                     "cascade": [],
                     "val": "hearingloop",
                     "text": {
-                        "0": "hearingloop"
+                        "0": "Hearing Loop"
                     },
                     "id": 3
                 },
@@ -641,7 +641,7 @@
                     "cascade": [],
                     "val": "signlanginterpreter",
                     "text": {
-                        "0": "signlanginterpreter"
+                        "0": "Sign Language Interpreter"
                     },
                     "id": 4
                 },
@@ -649,7 +649,7 @@
                     "cascade": [],
                     "val": "tactilepaving",
                     "text": {
-                        "0": "tactilepaving"
+                        "0": "Tactile Paving"
                     },
                     "id": 5
                 },
@@ -657,7 +657,7 @@
                     "cascade": [],
                     "val": "tdd",
                     "text": {
-                        "0": "tdd"
+                        "0": "TTY"
                     },
                     "id": 6
                 },
@@ -665,7 +665,7 @@
                     "cascade": [],
                     "val": "trs",
                     "text": {
-                        "0": "trs"
+                        "0": "TRS"
                     },
                     "id": 7
                 },
@@ -673,7 +673,7 @@
                     "cascade": [],
                     "val": "volume",
                     "text": {
-                        "0": "volume"
+                        "0": "Volume"
                     },
                     "id": 8
                 },
@@ -681,7 +681,7 @@
                     "cascade": [],
                     "val": "wheelchair",
                     "text": {
-                        "0": "wheelchair"
+                        "0": "Wheelchair"
                     },
                     "id": 9
                 }
