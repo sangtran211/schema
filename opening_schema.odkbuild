@@ -28,7 +28,7 @@
                     "cascade": [],
                     "val": "automobile",
                     "text": {
-                        "0": "automobile"
+                        "0": "Automobile"
                     },
                     "id": 0
                 },
@@ -36,7 +36,7 @@
                     "cascade": [],
                     "val": "bicycle",
                     "text": {
-                        "0": "bicycle"
+                        "0": "Bicycle"
                     },
                     "id": 1
                 },
@@ -44,7 +44,7 @@
                     "cascade": [],
                     "val": "emergencyexit",
                     "text": {
-                        "0": "emergencyexit"
+                        "0": "Emergency Exit"
                     },
                     "id": 2
                 },
@@ -52,7 +52,7 @@
                     "cascade": [],
                     "val": "pedestrian",
                     "text": {
-                        "0": "pedestrian"
+                        "0": "Pedestrian"
                     },
                     "id": 3
                 },
@@ -60,7 +60,7 @@
                     "cascade": [],
                     "val": "pedestrian.principal",
                     "text": {
-                        "0": "pedestrian.principal"
+                        "0": "Pedestrian (Principal)"
                     },
                     "id": 4
                 },
@@ -68,7 +68,7 @@
                     "cascade": [],
                     "val": "pedestrian.transit",
                     "text": {
-                        "0": "pedestrian.transit"
+                        "0": "Pedestrian (Transit)"
                     },
                     "id": 5
                 },
@@ -76,7 +76,7 @@
                     "cascade": [],
                     "val": "service",
                     "text": {
-                        "0": "service"
+                        "0": "Service"
                     },
                     "id": 6
                 }
@@ -112,59 +112,83 @@
             "options": [
                 {
                     "cascade": [],
-                    "val": "automobile",
+                    "val": "assisted.listening",
                     "text": {
-                        "0": "automobile"
+                        "0": "Assisted Listening"
                     },
                     "id": 0
                 },
                 {
                     "cascade": [],
-                    "val": "bicycle",
+                    "val": "braille",
                     "text": {
-                        "0": "bicycle"
+                        "0": "Braille"
                     },
                     "id": 1
                 },
                 {
                     "cascade": [],
-                    "val": "emergencyexit",
+                    "val": "hearing",
                     "text": {
-                        "0": "emergencyexit"
+                        "0": "Hearing"
                     },
                     "id": 2
                 },
                 {
                     "cascade": [],
-                    "val": "pedestrian",
+                    "val": "hearingloop",
                     "text": {
-                        "0": "pedestrian"
+                        "0": "Hearing Loop"
                     },
                     "id": 3
                 },
                 {
                     "cascade": [],
-                    "val": "pedestrian.principal",
+                    "val": "signlanginterpreter",
                     "text": {
-                        "0": "pedestrian.principal"
+                        "0": "Sign Language Interpreter"
                     },
                     "id": 4
                 },
                 {
                     "cascade": [],
-                    "val": "pedestrian.transit",
+                    "val": "tactilepaving",
                     "text": {
-                        "0": "pedestrian.transit"
+                        "0": "Tactile Paving"
                     },
                     "id": 5
                 },
                 {
                     "cascade": [],
-                    "val": "service",
+                    "val": "tdd",
                     "text": {
-                        "0": "service"
+                        "0": "TTY"
                     },
                     "id": 6
+                },
+                {
+                    "cascade": [],
+                    "val": "trs",
+                    "text": {
+                        "0": "TRS"
+                    },
+                    "id": 7
+                },
+                {
+                    "cascade": [],
+                    "val": "volume",
+                    "text": {
+                        "0": "Volume"
+                    },
+                    "id": 8
+                },
+                {
+                    "cascade": [],
+                    "val": "wheelchair",
+                    "text": {
+                        "0": "Wheelchair"
+                    },
+                    "id": 9
                 }
             ],
             "other": false,
@@ -201,7 +225,7 @@
                     "cascade": [],
                     "val": "badgereader",
                     "text": {
-                        "0": "badgereader"
+                        "0": "Badge Reader"
                     },
                     "id": 0
                 },
@@ -209,7 +233,7 @@
                     "cascade": [],
                     "val": "fingerprintreader",
                     "text": {
-                        "0": "fingerprintreader"
+                        "0": "Fingerprint Reader"
                     },
                     "id": 1
                 },
@@ -217,7 +241,7 @@
                     "cascade": [],
                     "val": "guard",
                     "text": {
-                        "0": "guard"
+                        "0": "Guard"
                     },
                     "id": 2
                 },
@@ -225,7 +249,7 @@
                     "cascade": [],
                     "val": "keyaccess",
                     "text": {
-                        "0": "keyaccess"
+                        "0": "Key Access"
                     },
                     "id": 3
                 },
@@ -233,7 +257,7 @@
                     "cascade": [],
                     "val": "outofservice",
                     "text": {
-                        "0": "outofservice"
+                        "0": "Out of Service"
                     },
                     "id": 4
                 },
@@ -241,7 +265,7 @@
                     "cascade": [],
                     "val": "passwordaccess",
                     "text": {
-                        "0": "passwordaccess"
+                        "0": "Password Access"
                     },
                     "id": 5
                 },
@@ -249,7 +273,7 @@
                     "cascade": [],
                     "val": "retinascanner",
                     "text": {
-                        "0": "retinascanner"
+                        "0": "Retina Scanner"
                     },
                     "id": 6
                 },
@@ -257,7 +281,7 @@
                     "cascade": [],
                     "val": "voicerecognition",
                     "text": {
-                        "0": "voicerecognition"
+                        "0": "Voice Recognition"
                     },
                     "id": 7
                 }

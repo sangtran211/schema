@@ -30,8 +30,9 @@
         },
         {
             "name": "unit_id",
+            "id": 3,
             "label": {
-                "0": "Identifier of the Unit"
+                "0": "Unit ID"
             },
             "hint": {
                 "0": "Unique identifier of the Unit the Anchor possesses a spatial relationship with"
@@ -50,126 +51,9 @@
             "video": {},
             "bigimage": {},
             "guidance": {},
-            "options": [
-                {
-                    "val": "VENUE-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Venue"
-                    }
-                },
-                {
-                    "val": "BUILDING-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Building"
-                    }
-                },
-                {
-                    "val": "LEVEL-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Level"
-                    }
-                },
-                {
-                    "val": "UNIT-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Unit"
-                    }
-                },
-                {
-                    "val": "FIXTURE-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Fixture"
-                    }
-                },
-                {
-                    "val": "KIOSK-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Kiosk"
-                    }
-                },
-                {
-                    "val": "DETAIL-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Detail"
-                    }
-                },
-                {
-                    "val": "SECTION-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Section"
-                    }
-                },
-                {
-                    "val": "GEOFENCE-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Geofence"
-                    }
-                },
-                {
-                    "val": "KIOSK-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Kiosk"
-                    }
-                },
-                {
-                    "val": "OPENING-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Opening"
-                    }
-                },
-                {
-                    "val": "AMENITY-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Amenity"
-                    }
-                },
-                {
-                    "val": "OCCUPANT-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Occupant"
-                    }
-                },
-                {
-                    "val": "ANCHOR-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Anchor"
-                    }
-                },
-                {
-                    "val": "ADDRESS-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Address"
-                    }
-                },
-                {
-                    "val": "RELATIONSHIP-ID",
-                    "cascade": [],
-                    "text": {
-                        "0": "Relationship"
-                    }
-                }
-            ],
-            "cascading": false,
-            "other": false,
-            "appearance": "Default",
             "metadata": {},
-            "type": "inputSelectOne",
-            "id": 2
+            "length": false,
+            "type": "inputText"
         }
     ],
     "metadata": {

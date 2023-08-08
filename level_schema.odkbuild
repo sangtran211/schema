@@ -27,60 +27,76 @@
             "metadata": {},
             "options": [
                 {
-                    "val": "arrivals.domestic",
+                    "cascade": [],
+                    "val": "arrivals",
                     "text": {
-                        "0": "arrivals.domestic"
+                        "0": "Arrivals"
                     },
                     "id": 0
                 },
                 {
-                    "val": "arrivals.intl",
+                    "cascade": [],
+                    "val": "arrivals.domestic",
                     "text": {
-                        "0": "arrivals.intl"
+                        "0": "Arrivals (Domestic)"
                     },
                     "id": 1
                 },
                 {
-                    "val": "departures",
+                    "cascade": [],
+                    "val": "arrivals.intl",
                     "text": {
-                        "0": "departures"
+                        "0": "Arrivals (Intl)"
                     },
                     "id": 2
                 },
                 {
-                    "val": "departures.domestic",
+                    "cascade": [],
+                    "val": "departures",
                     "text": {
-                        "0": "departures.domestic"
+                        "0": "Departures"
                     },
                     "id": 3
                 },
                 {
-                    "val": "departures.intl",
+                    "cascade": [],
+                    "val": "departures.domestic",
                     "text": {
-                        "0": "departures.intl"
+                        "0": "Departures (Domestic)"
                     },
                     "id": 4
                 },
                 {
-                    "val": "parking",
+                    "cascade": [],
+                    "val": "departures.intl",
                     "text": {
-                        "0": "parking"
+                        "0": "Departures (Intl)"
                     },
                     "id": 5
                 },
                 {
-                    "val": "transit",
+                    "cascade": [],
+                    "val": "parking",
                     "text": {
-                        "0": "transit"
+                        "0": "Parking"
                     },
                     "id": 6
                 },
                 {
-                    "val": "unspecified",
+                    "cascade": [],
+                    "val": "transit",
                     "text": {
-                        "0": "unspecified"
+                        "0": "Transit"
                     },
                     "id": 7
+                },
+                {
+                    "cascade": [],
+                    "val": "unspecified",
+                    "text": {
+                        "0": "Unspecified"
+                    },
+                    "id": 8
                 }
             ],
             "cascading": false,
@@ -117,7 +133,7 @@
                     "cascade": [],
                     "val": "employeesonly",
                     "text": {
-                        "0": "employeesonly"
+                        "0": "Employees Only"
                     },
                     "id": 0
                 },
@@ -125,7 +141,7 @@
                     "cascade": [],
                     "val": "restricted",
                     "text": {
-                        "0": "restricted"
+                        "0": "Restricted"
                     },
                     "id": 1
                 }
@@ -165,11 +181,11 @@
                         "0": "true"
                     },
                     "cascade": [],
-                    "val": "true",
+                    "val": "True",
                     "id": 0
                 },
                 {
-                    "val": "false",
+                    "val": "False",
                     "text": {
                         "0": "false"
                     },

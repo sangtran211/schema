@@ -25,28 +25,28 @@
             "guidance": {},
             "options": [
                 {
+                    "cascade": [],
                     "val": "aerial",
                     "text": {
-                        "0": "aerial"
+                        "0": "Aerial"
                     },
-                    "id": 0,
-                    "cascade": []
+                    "id": 0
                 },
                 {
-                    "val": "subterranean",
-                    "text": {
-                        "0": "subterranean"
-                    },
-                    "id": 1,
-                    "cascade": []
-                },
-                {
+                    "cascade": [],
                     "val": "ground",
                     "text": {
-                        "0": "ground"
+                        "0": "Ground"
                     },
-                    "id": 2,
-                    "cascade": []
+                    "id": 1
+                },
+                {
+                    "cascade": [],
+                    "val": "subterranean",
+                    "text": {
+                        "0": "Subterranean"
+                    },
+                    "id": 2
                 }
             ],
             "cascading": false,
