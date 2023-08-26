@@ -1,5 +1,5 @@
 {
-    "title": "amentity schema",
+    "title": "amenity schema",
     "controls": [
         {
             "name": "category",
