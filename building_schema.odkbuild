@@ -2645,7 +2645,7 @@
                 "0": "Category"
             },
             "hint": {
-                "0": "The category that best describes the function and/or service provided by the Amenity"
+                "0": "The category that best describes the function of the physical Building"
             },
             "defaultValue": "",
             "readOnly": false,
